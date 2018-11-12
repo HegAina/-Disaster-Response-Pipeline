@@ -66,11 +66,12 @@ File structure of the project is:
 |- train_classifier.py
 |- classifier.pkl  # saved model 
 
-- README.md
-
 - Notebook
 | - ETL Pipeline Preparation
 | - ML Pipeline Preparation
+
+- README.md
+
 
  
 
