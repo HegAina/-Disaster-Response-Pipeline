@@ -47,36 +47,29 @@ Using flask, html, css and javascript to:
 
 Go to http://0.0.0.0:3001/
 
-## File structure:
+## File structure (given by the project spesification from Udacity):
 File structure of the project is:
-
-app
-
+- app
 | - template
+| |- master.html  # main page of web app
+| |- go.html  # classification result page of web app
+|- run.py  # Flask file that runs app
 
-| |- master.html # main page of web app
-
-| |- go.html # classification result page of web app
-
-|- run.py # Flask file that runs app
-
-data
-
-|- disaster_categories.csv # data to process
-
-|- disaster_messages.csv # data to process
-
+- data
+|- disaster_categories.csv  # data to process 
+|- disaster_messages.csv  # data to process
 |- process_data.py
+|- InsertDatabaseName.db   # database to save clean data to
 
-|- DisasterResponse.db # database to save clean data to
-
-models
-
+- models
 |- train_classifier.py
+|- classifier.pkl  # saved model 
 
-|- classifier.pkl # saved mode
+- README.md
 
-|- README.md
+- Project Notebooka
+| - ETL Pipeline Preparation
+| - ML Pipeline Preparation
 
  
 
