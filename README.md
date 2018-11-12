@@ -33,6 +33,7 @@ Export the final model as a pickle file
 
 ## 3. Flask web app
 Using flask, html, css and javascript to:
+
 •	Categorize new messages
 
 •	Visualize of the training set genres, categories and news media categories
