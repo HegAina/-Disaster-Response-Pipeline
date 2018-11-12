@@ -68,7 +68,7 @@ File structure of the project is:
 
 - README.md
 
-- Project Notebooka
+- Notebook
 | - ETL Pipeline Preparation
 | - ML Pipeline Preparation
 
