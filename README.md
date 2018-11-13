@@ -16,12 +16,12 @@ The project consists of three components:
 
 •	Clean the dataset
 
-•	Store the cleaned dataset in a SQLite database
+•	Store the dataset in a SQLite database
 
 ## 2. ML Pipeline functions
 •	Load dataset from the SQLite database
 
-•	Split the dataset into training and test sets
+•	Split the dataset into training and testing sets
 
 •	Build a text processing and machine learning pipeline
 
@@ -40,11 +40,11 @@ Using flask, html, css and javascript to:
 
 
 ## How to run the program
-•	In the data directory - run ETL pipeline that cleans data and stores in database:  python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db
+•	In the data directory - run ETL pipeline that merge data and stores in database with the command:  python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db
 
-•	In the model directory - run ML pipeline that trains classifier and save models: python train_classifier.py ../data/DisasterResponse.db.classifier.pkl
+•	In the model directory - run ML pipeline that trains classifier and save models with the commands: python train_classifier.py ../data/DisasterResponse.db.classifier.pkl
 
-•	In the app directory - run the web app - python run.py
+•	In the app directory - run the web app wit the commands: python run.py
 
 Go to http://0.0.0.0:3001/
 
